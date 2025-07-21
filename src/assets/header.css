@@ -1,0 +1,11 @@
+.active {
+  border-bottom: solid 1px grey;
+  width: fit-content;
+}
+a {
+  text-decoration: none;
+  align-items: center;
+  color: grey;
+  margin-right: 20px;
+  font-weight: 400;
+}

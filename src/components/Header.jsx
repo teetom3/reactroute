@@ -1,7 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
+import "../assets/header.css";
 
 export default function Header() {
   return (
@@ -9,9 +10,9 @@ export default function Header() {
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <Nav className="ms-auto">
-            <Nav.Link href="/">Accueil</Nav.Link>
-            <Nav.Link href="/categorie/vetements">Vêtements</Nav.Link>
-            <Nav.Link href="/categorie/chaussures">Chaussures</Nav.Link>
+            <NavLink to="/">Accueil</NavLink>
+            <NavLink to="/categorie/vetements">Vêtements</NavLink>
+            <NavLink to="/categorie/chaussures">Chaussures</NavLink>
           </Nav>
         </Container>
       </Navbar>
