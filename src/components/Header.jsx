@@ -10,9 +10,15 @@ export default function Header() {
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <Nav className="ms-auto">
-            <NavLink to="/">Accueil</NavLink>
-            <NavLink to="/categorie/vetements">Vêtements</NavLink>
-            <NavLink to="/categorie/chaussures">Chaussures</NavLink>
+            <Nav.Link as={NavLink} to="/">
+              Accueil
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/categorie/vetements">
+              Vêtements
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/categorie/chaussures">
+              Chaussures
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
