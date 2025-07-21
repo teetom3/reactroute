@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import Home from "./pages/Home.jsx";
 import Layout from "./components/Layout.jsx";
-import Categorie from "./pages/Categorie.jsx";
+import Categorie from "./pages/Category.jsx";
 function App() {
   return (
     <Routes>
