@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-const Categorie = () => {
+const Category = () => {
   const { category } = useParams();
   return (
     <div>
@@ -7,4 +7,4 @@ const Categorie = () => {
     </div>
   );
 };
-export default Categorie;
+export default Category;
