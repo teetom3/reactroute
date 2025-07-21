@@ -1,7 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import SearchHeader from "./SearchHeader";
 import { Link, NavLink } from "react-router";
+
 import "../assets/header.css";
 
 export default function Header() {
@@ -9,6 +11,7 @@ export default function Header() {
     <>
       <Navbar bg="light" data-bs-theme="light">
         <Container>
+          <SearchHeader />
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/">
               Accueil
